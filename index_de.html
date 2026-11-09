@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="de">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Urlaub am Plattensee</title>
+    <title>Urlaub am Plattensee | Familienfreundliche Apartments</title>
     <meta name="description" content="Komfortable, familienfreundliche Apartments in Balatonlelle. Zwei Apartments mit separatem Eingang mit 3-3 Zimmern für 6-6 Personen.">
-    <meta content="Apartments, Urlaub, Balaton, Balatonlelle, Plattensee" name="keywords">
+    <meta name="keywords" content="Apartments, Urlaub, Balaton, Balatonlelle, Plattensee">
+    <meta property="og:title" content="Urlaub am Plattensee | Familienfreundliche Apartments">
+    <meta property="og:description" content="Komfortable, familienfreundliche Apartments in Balatonlelle. Zwei Apartments mit separatem Eingang mit 3-3 Zimmern für 6-6 Personen.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/hero-bg.jpg">
 
     <link href="assets/img/favicon.ico" rel="icon">
     <link href="assets/img/favicon.ico" rel="apple-touch-icon">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -29,435 +28,283 @@
 <body>
 
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container">
-        <div class="header-container d-flex align-items-center">
-            <div class="logo mr-auto">
-                <h1 class="text-light"><a href="index.html"><span>Urlaub in Balatonlelle</span></a></h1>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-            <nav class="nav-menu d-none d-lg-block">
-                <ul>
-                    <li class="active"><a href="#header">Main</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#info">Info</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
-
-                    <li class="get-started get-started-hu"><a href="index.html"></a></li>
-                    <li class="get-started get-started-en"><a href="index_en.html"></a></li>
-                    <li class="get-started get-started-de"><a href="index_de.html"></a></li>
-                </ul>
-            </nav>
+<header id="header">
+    <div class="container header-inner">
+        <div class="logo">
+            <a href="#hero">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M3 17c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0 3 2 4.5 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                    <path d="M3 12c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0 3 2 4.5 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+                    <circle cx="17" cy="5.5" r="2.6" fill="currentColor"/>
+                </svg>
+                <span>Urlaub in Balatonlelle</span>
+            </a>
         </div>
+
+        <button class="nav-toggle" aria-label="Menu"><i class="bx bx-menu"></i></button>
+
+        <nav class="nav-menu">
+            <ul>
+                <li class="active"><a href="#hero">Start</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#info">Apartments</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="index.html" class="" title="Magyar"><img src="assets/img/Hungary-24.png" alt="Magyar"></a>
+                    <a href="index_en.html" class="" title="English"><img src="assets/img/Great-Britain-24.png" alt="English"></a>
+                    <a href="index_de.html" class="active" title="Deutsch"><img src="assets/img/Germany-24.png" alt="Deutsch"></a>
+            </div>
+        </nav>
     </div>
 </header>
 
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
-    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
-        <h1>Wenn Sie Urlaub machen möchten, sind Sie auf dem richtigen Seite.</h1>
-        <h2>Apartments in Balatonlelle. Für weitere Details scrollen Sie nach unten.</h2>
+<!-- ======= Hero ======= -->
+<section id="hero">
+    <div class="hero-content">
+        <div class="eyebrow">Balatonlelle · Plattensee</div>
+        <h1>Wenn Sie Urlaub machen möchten, sind Sie hier genau richtig</h1>
+        <p>Zwei schön eingerichtete, ruhige Gartenapartments — die perfekte Basis für Ihre Tage am Plattensee.</p>
+        <div class="hero-actions">
+            <a href="#info" class="btn btn-primary">Apartments ansehen</a>
+            <a href="#contact" class="btn btn-outline">Kontakt</a>
+        </div>
     </div>
-</section><!-- End Hero -->
+    <div class="scroll-cue"></div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,40 C240,90 480,0 720,30 C960,60 1200,10 1440,40 L1440,90 L0,90 Z"></path></svg>
+    </div>
+</section>
 
 <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-        <div class="container">
+    <!-- ======= About ======= -->
+    <section id="about">
+        <div class="container about-grid">
+            <div class="about-stats" data-reveal="right">
+                <ul class="stat-list">
+                    <li class="stat-item"><span class="icon"><i class="bx bx-building-house"></i></span><span class="text"><span class="num">2</span><span class="label">Apartments</span></span></li>
+                    <li class="stat-item"><span class="icon"><i class="bx bx-group"></i></span><span class="text"><span class="num">6+6</span><span class="label">Personen + Zustellbett</span></span></li>
+                    <li class="stat-item"><span class="icon"><i class="bx bx-walk"></i></span><span class="text"><span class="num">10–15 Min.</span><span class="label">Fußweg zum See</span></span></li>
+                </ul>
+            </div>
+            <div class="about-text" data-reveal="left">
+                <div class="eyebrow">Über uns</div>
+                <h2>Willkommen auf unserer Seite!</h2>
+                <p>Wir bieten Ihnen Apartments in Balatonlelle, einer der schönsten Städte rund um den Plattensee. Wir haben zwei schön eingerichtete, gut ausgestattete Apartments für 6-6 Personen in einer ruhigen Grünanlage mit schönem Garten und Parkmöglichkeit.</p>
+                <ul class="check-list">
+                    <li><i class="bx bx-check"></i> Ruhige, grüne Umgebung</li>
+                    <li><i class="bx bx-check"></i> Beide Apartments klimatisiert</li>
+                    <li><i class="bx bx-check"></i> Gut ausgestattete Apartments</li>
+                    <li><i class="bx bx-check"></i> 10-15 Min. zu Fuß zum Plattensee</li>
+                </ul>
+                <p class="note">Bitte scrollen Sie nach unten, um Fotos der Apartments und weitere Details zu sehen.</p>
+            </div>
+        </div>
+    </section>
 
-            <div class="row content">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                    <h2>Willkommen auf unserer Seite!</h2>
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
-                    <p>
-                        Wir bieten Ihnen Apartments in Balatonlelle, einer der schönsten Städte rund um den Plattensee.
-                        Wir haben zwei schön eingerichtete, gut ausgestattete Apartments für 6-6 Personen.
-                        Das Haus liegt in einer ruhigen Grünanlage und hat einen schönen Garten mit Parkmöglichkeit.
-                    </p>
+    <!-- ======= Info / Apartments ======= -->
+    <section id="info" class="bg-alt">
+        <div class="container">
+            <div class="info-intro" data-reveal>
+                <div class="eyebrow">Apartments & Preise</div>
+                <h2>Informationen zu den Apartments</h2>
+                <p>Wir erwarten unsere Gäste in einem zweistöckigen Einfamilienhaus mit zwei Apartments mit separaten Eingängen (6-6 Personen + Zustellbett). Parkmöglichkeit im Hof, außerdem Gartenpool, Pavillon, Grill, Schmortopf, Tischtennis, Badminton und mehr.</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="apt-card" data-reveal>
+                    <div class="icon-wrap"><i class="bx bx-building-house"></i></div>
+                    <h4>Erdgeschoss-Apartment</h4>
                     <ul>
-                        <li><i class="ri-check-line"></i> Ruhige Grünanlage
-                        </li>
-                        <li><i class="ri-check-line"></i> Gut ausgestattete Apartments
-                        </li>
-                        <li><i class="ri-check-line"></i> Plattensee
-                        </li>
-                    </ul>
-                    <p class="font-italic">
-                        Bitte scrollen Sie nach unten und erfahren Sie mehr über die Apartments und werfen Sie einen Blick in die Galerie.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Info Section ======= -->
-    <section id="info" class="info">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-right">
-                    <div class="content">
-                        <h3>Informationen zu den Apartments</h3>
-                        <p>
-                            Wir erwarten unseren Gast in unserem zweistöckigen Einfamilienhaus mit zwei Apartments (6-6 Personen) mit separaten Eingängen.
-                            Parkmöglichkeit im Hof. Weitere Ausstattung: Gartenpool, Pavillon, Grill, Schmortopf, Tischtennis, Badminton, etc.
-                        </p>
-                        <p>
-                            Die Preise richten sich nach der Länge der Mietzeit. (Je mehr Zeit Sie in unseren Apartments verbringen, desto besser wird der Preis.)
-                            Für weitere Details kontaktieren Sie uns bitte.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-8 d-flex align-items-stretch">
-                    <div class="icon-boxes d-flex flex-column justify-content-center">
-                        <div class="row">
-                            <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-building-house"></i>
-                                    <h4>Erdgeschoss Apartment</h4>
-                                    <li>6 Personen + Zustellbett</li>
-                                    <li>3 Schlafzimmer, Küche (gut ausgestattet), Flur, Bad, separates WC, Balkon</li>
-                                    <li>Kabelfernsehen, Internet (Wifi) usw.</li>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-building-house"></i>
-                                    <h4>Ersten Stock Apartment</h4>
-                                    <li>6 Personen + Zustellbett</li>
-                                    <li>3 Schlafzimmer, Küche (gut ausgestattet), Flur, Bad, separates WC, Balkon</li>
-                                    <li>Kabelfernsehen, Internet (Wifi) usw.</li>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                                <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-coin"></i>
-                                    <h4>Preise</h4>
-                                    <li><b>Hauptsaison:</b> 1. Juli - 20. August.<br/>
-                                        Preis/Tag: <b>90 EUR/Apartment</b> + Kurtaxe (1 EUR/Person)
-                                    </li>
-                                    <li><b>Vor- und Nachsaison:</b>
-                                        Ermäßigte Preise in diesem Zeitraum.
-                                    </li>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End .content-->
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End Info Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="gallery" class="portfolio">
-        <div class="container">
-
-            <div class="section-title" data-aos="fade-left">
-                <h2>Galerie</h2>
-            </div>
-
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">Alle</li>
-                        <li data-filter=".filter-out">Draußen</li>
-                        <li data-filter=".filter-ground">Erdgeschoss</li>
-                        <li data-filter=".filter-upstairs">Erste Stock</li>
+                        <li>6 Personen + Zustellbett</li>
+                        <li>3 Schlafzimmer, Küche (gut ausgestattet)</li>
+                        <li>Flur, Bad, separates WC, Balkon</li>
+                        <li>Klimaanlage</li>
+                        <li>Kabelfernsehen, Wifi-Internet</li>
                     </ul>
                 </div>
+                <div class="apt-card" data-reveal>
+                    <div class="icon-wrap"><i class="bx bx-building-house"></i></div>
+                    <h4>Apartment im ersten Stock</h4>
+                    <ul>
+                        <li>6 Personen + Zustellbett</li>
+                        <li>3 Schlafzimmer, Küche (gut ausgestattet)</li>
+                        <li>Flur, Bad, separates WC, Balkon</li>
+                        <li>Klimaanlage</li>
+                        <li>Kabelfernsehen, Wifi-Internet</li>
+                    </ul>
+                </div>
+                <div class="apt-card price" data-reveal>
+                    <div class="icon-wrap"><i class="bx bx-coin-stack"></i></div>
+                    <h4>Preise</h4>
+                    <p>Die Preise richten sich nach der Saison und der Personenzahl — je länger Sie bleiben, desto besser das Angebot. Schreiben Sie uns kurz, und wir melden uns mit einem aktuellen, individuellen Angebot.</p>
+                    <a href="mailto:gergye.ferencne@gmail.com" class="btn btn-dark btn-sm">Angebot anfordern<i class="bx bx-right-arrow-alt"></i></a>
+                </div>
             </div>
 
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-out">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/kulso1.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/kulso1.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Külső"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-out">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/udvar1.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/udvar1.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Udvar"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-out">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/udvar2.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/udvar2.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Udvar"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/also_szint.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/also_szint.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Alsó szint"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/szoba1_also.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/szoba1_also.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Szoba"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/szoba2_also.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/szoba2_also.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Szoba"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/szoba3_also.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/szoba3_also.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Szoba"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/hall_also.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/hall_also.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Előtér"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/konyha_also.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/konyha_also.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Konyha"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-ground">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/furdo_also.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/furdo_also.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Fürdő"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Emelet"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/szoba1_emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/szoba1_emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Szoba"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/szoba2_emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/szoba2_emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Szoba"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/szoba3_emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/szoba3_emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Szoba"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/hall_emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/hall_emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Előtér"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/konyha_emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/konyha_emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Konyha"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-upstairs">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/gallery/furdo_emelet.JPG" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <div class="portfolio-links">
-                                <a href="assets/img/gallery/furdo_emelet.JPG" data-gall="portfolioGallery"
-                                   class="venobox" title="Fürdő"><i class="bx bx-zoom-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <p class="note" style="max-width:760px;margin:40px auto 0;text-align:center;">Für weitere Details oder Fragen zu den Apartments kontaktieren Sie uns bitte per E-Mail oder Telefon.</p>
         </div>
-    </section><!-- End Portfolio Section -->
+    </section>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= Gallery ======= -->
+    <section id="gallery">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4" data-aos="fade-right">
-                    <div class="section-title">
-                        <h2>Kontakt</h2>
-                    </div>
-                </div>
+            <div class="section-head" data-reveal>
+                <div class="eyebrow">Galerie</div>
+                <h2>Schauen Sie sich um</h2>
+            </div>
 
-                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-                    <iframe style="border:0; width: 100%; height: 270px;"
-                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Balatonlelle jánoskert u. 8.&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                            frameborder="0" allowfullscreen></iframe>
-                    <div class="info mt-4">
-                        <i class="icofont-google-map"></i>
-                        <h4>Adresse:</h4>
-                        <p>Ungarn, 8638 Balatonlelle, Jánoskert u. 8.</p>
+            <div class="filters">
+                <button class="active" data-filter="*">Alle</button>
+            <button class="" data-filter="out">Außen</button>
+            <button class="" data-filter="ground">Erdgeschoss</button>
+            <button class="" data-filter="upstairs">Erster Stock</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="out">
+                    <img src="assets/img/gallery/kulso1.JPG" alt="Außen" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Außen</span>
+                </div>
+                <div class="gallery-item" data-category="out">
+                    <img src="assets/img/gallery/udvar1.JPG" alt="Hof" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Hof</span>
+                </div>
+                <div class="gallery-item" data-category="out">
+                    <img src="assets/img/gallery/udvar2.JPG" alt="Hof" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Hof</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/also_szint.JPG" alt="Erdgeschoss" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Erdgeschoss</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/szoba1_also.JPG" alt="Zimmer" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Zimmer</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/szoba2_also.JPG" alt="Zimmer" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Zimmer</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/szoba3_also.JPG" alt="Zimmer" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Zimmer</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/hall_also.JPG" alt="Flur" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Flur</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/konyha_also.JPG" alt="Küche" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Küche</span>
+                </div>
+                <div class="gallery-item" data-category="ground">
+                    <img src="assets/img/gallery/furdo_also.JPG" alt="Bad" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Bad</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/emelet.JPG" alt="Erster Stock" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Erster Stock</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/szoba1_emelet.JPG" alt="Zimmer" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Zimmer</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/szoba2_emelet.JPG" alt="Zimmer" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Zimmer</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/szoba3_emelet.JPG" alt="Zimmer" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Zimmer</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/hall_emelet.JPG" alt="Flur" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Flur</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/konyha_emelet.JPG" alt="Küche" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Küche</span>
+                </div>
+                <div class="gallery-item" data-category="upstairs">
+                    <img src="assets/img/gallery/furdo_emelet.JPG" alt="Bad" loading="lazy">
+                    <span class="cap"><i class="bx bx-expand"></i> Bad</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Contact ======= -->
+    <section id="contact" class="bg-alt">
+        <div class="container">
+            <div class="section-head" data-reveal>
+                <div class="eyebrow">Kontakt</div>
+                <h2>Buchen Sie oder stellen Sie eine Frage</h2>
+                <p>Weitere Informationen und Terminvereinbarung.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="map-wrap" data-reveal="right">
+                    <iframe src="https://maps.google.com/maps?width=600&height=400&hl=de&q=Balatonlelle%20J%C3%A1noskert%20u.%208.&t=&z=14&ie=UTF8&iwloc=B&output=embed" loading="lazy" allowfullscreen></iframe>
+                </div>
+                <div class="contact-cards" data-reveal="left">
+                    <div class="contact-card">
+                        <div class="icon-wrap"><i class="bx bx-map"></i></div>
+                        <div><h4>Adresse</h4><p>Ungarn, 8638 Balatonlelle, Jánoskert u. 8.</p></div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 mt-4">
-                            <div class="info">
-                                <i class="icofont-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>gergye.ferencne@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="info w-100 mt-4">
-                                <i class="icofont-phone"></i>
-                                <h4>Telefon:</h4>
-                                <p>+36 20 200 1962</p>
-                                <p>+36 85 454 839</p>
-                            </div>
-                        </div>
+                    <div class="contact-card">
+                        <div class="icon-wrap"><i class="bx bx-envelope"></i></div>
+                        <div><h4>Email</h4><p><a href="mailto:gergye.ferencne@gmail.com">gergye.ferencne@gmail.com</a></p></div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon-wrap"><i class="bx bx-phone"></i></div>
+                        <div><h4>Telefon</h4><p>+36 20 200 1962<br>+36 85 454 839</p></div>
                     </div>
                 </div>
             </div>
 
+            <div class="cta-band" data-reveal>
+                <div>
+                    <h3>Bereit für Ihren Urlaub?</h3>
+                    <p>Schreiben Sie uns eine E-Mail oder rufen Sie uns an — wir beantworten gerne jede Frage.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="mailto:gergye.ferencne@gmail.com" class="btn btn-primary">E-Mail senden</a>
+                    <a href="tel:+36202001962" class="btn btn-outline" style="border-color:rgba(255,255,255,.4)">Anrufen</a>
+                </div>
+            </div>
         </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-</main><!-- End #main -->
+</main>
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
-    <div class="container d-md-flex py-4">
-
-        <div class="mr-md-auto text-center text-md-left">
-            <div class="copyright">
-                &copy; Copyright <strong><span>Gisz Bt.</span></strong> All Rights Reserved
-            </div>
+    <div class="container footer-inner">
+        <div class="copyright">
+            Unterkunftsanbieter: <strong>Gergye Ferencné</strong><br>
+            NTAK-Registrierungsnummer: <strong>MA19019674</strong><br>
+            &copy; <span data-year></span> <strong>Gisz Bt.</strong> Alle Rechte vorbehalten.
         </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="https://www.facebook.com/holiday.giszbt.hu" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <div class="social">
+            <a href="https://www.facebook.com/holiday.giszbt.hu" class="facebook" aria-label="Facebook" target="_blank" rel="noopener"><i class="bx bxl-facebook"></i></a>
         </div>
     </div>
-</footer><!-- End Footer -->
+</footer>
 
-<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+<a href="#hero" class="back-to-top" aria-label="Back to top"><i class="bx bx-chevron-up"></i></a>
 
-<!-- Vendor JS Files -->
-<script src="assets/vendor/jquery/jquery.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/counterup/counterup.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/venobox/venobox.min.js"></script>
-<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
+<!-- Lightbox -->
+<div class="lightbox">
+    <button class="lb-btn lb-close" aria-label="Close"><i class="bx bx-x"></i></button>
+    <button class="lb-btn lb-prev" aria-label="Previous"><i class="bx bx-chevron-left"></i></button>
+    <img src="" alt="">
+    <button class="lb-btn lb-next" aria-label="Next"><i class="bx bx-chevron-right"></i></button>
+    <div class="lb-cap"></div>
+</div>
 
-<!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
 </body>
